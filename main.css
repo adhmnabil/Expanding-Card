@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+.paaner1 {
+  background: url(images/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.paaner2 {
+  background: url(images/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  flex: 0.5;
+  transition: flex 0.7s ease-in-out;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.paaner3 {
+  background: url(images/3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.paaner4 {
+  background: url(images/4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.paaner5 {
+  background: url(images/5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  transition: all 0.7s ease-in-out;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+h3 {
+  opacity: 0;
+}
+.active {
+  width: 300px;
+  flex: 5;
+}
+.active h3 {
+  opacity: 1;
+}
